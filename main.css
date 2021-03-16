@@ -1,0 +1,48 @@
+body {
+    font-size: 2vw;
+    margin: 0;
+}
+
+.wrapper {
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2em 1em;
+    display: flex;
+}
+
+.item {
+    border: .5em solid green;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    font-family: serif;
+    position: relative;
+    user-select: none;
+    font-size: 1em;
+    padding: 1em;
+    height: 1em;
+    width: 1em;
+    
+    border-right: .5em solid black;
+    border-left: .5em solid grey;
+}
+
+.division {
+    border-top: .5em dotted grey;
+    width: 100vw;
+}
+
+@media only screen and (min-width: 750px) {
+    body { font-size: 1.75vw }
+    .wrapper { padding: 2em 4em }
+}
+
+@media only screen and (min-width: 1000px) {
+    body { font-size: 1.5vw }
+    .wrapper { padding: 2em 9em }
+}
+
+@media only screen and (min-width: 1300px) {
+    body { font-size: 17px }
+    .wrapper { padding: 2em 15em }
+}
